@@ -8,7 +8,6 @@ ngBorder is an angularjs library that creates border animation
 DEMO
 -------
 https://kimsunwook.github.io/ngBorder
-(border.css: https://github.com/juliangarnier/anime/)
 
 <br/>
 
