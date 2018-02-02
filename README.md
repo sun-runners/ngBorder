@@ -36,13 +36,13 @@ or
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngBorder/master/ngBorder.js"></script>
-<link href="https://raw.githubusercontent.com/KimSunWook/ngBorder/master/ngBorder.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.0.2/ngBorder.js"></script>
+<link href="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.0.2/ngBorder.css" rel="stylesheet">
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngBorder/master/ngBorder.min.js"></script>
-<link href="https://raw.githubusercontent.com/KimSunWook/ngBorder/master/ngBorder.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.0.2/ngBorder.min.js"></script>
+<link href="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.0.2/ngBorder.min.css" rel="stylesheet">
 ```
 
 <br/>
