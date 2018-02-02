@@ -2,11 +2,11 @@
   "name": "ng-border",
   "version": "1.0.1",
   "homepage": "https://github.com/KimSunWook/ngBorder",
-  "main": "ngBorder.js",
+  "main": ["ngBorder.js", "ngBorder.css"],
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
-  "description": "A library that animates buttons when loading",
+  "description": "ngBorder is an AngularJS library that creates border animation",
   "repository": {
     "type": "git",
     "url": "git@github.com:KimSunWook/ngBorder.git"

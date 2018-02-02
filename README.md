@@ -1,13 +1,14 @@
 ngBorder
 =======
 
-A library that animates buttons when loading
+ngBorder is an angularjs library that creates border animation
 
 <br/>
 
 DEMO
 -------
 https://kimsunwook.github.io/ngBorder
+(border.css: https://github.com/juliangarnier/anime/)
 
 <br/>
 
@@ -22,7 +23,7 @@ bower install ngBorder --save
 
 Quick start
 -------
-Copy-paste the stylesheet <script> into your <body> and <link> into your head.
+Copy-paste the stylesheet <script> into your <body> and <link> into your <head>.
 
 ```
 <script src=".bower_components/ng-border/ngBorder.js"></script>
@@ -37,7 +38,6 @@ or
 ```
 <script src="https://raw.githubusercontent.com/KimSunWook/ngBorder/master/ngBorder.js"></script>
 <link href="https://raw.githubusercontent.com/KimSunWook/ngBorder/master/ngBorder.css" rel="stylesheet">
-<script src="https://raw.githubusercontent.com/KimSunWook/ngBorder/master/ngBorder.css"></script>
 ```
 or
 ```
@@ -94,17 +94,14 @@ You can choose among 32 modes from Border.css (https://github.com/gsco/Border.cs
   - border-undo-parallel-vert-rev
 
 ```
-<ng-border
-  nlb-loading="loading"
-  nlb-mode="'rotating-plane'"
-  ng-click="save();">
-  Save
-</ng-border>
+<div
+  ng-border="'border-corners'"
+  ng-border-color="'#FF5722'"
+  ng-border-width="'5px'">
+</div>
 ```
 
-When loading takes a certain amount of time, such as saving or deleting, you can give the button an animation effect.
-
-So you can easily prevent the user from clicking the button more than once when loading.
+Now you can apply the border animation effect to the desired element.
 
 ```
   angular.module('myApp', [
