@@ -12,4 +12,5 @@ angular.module('app')
       .state('demo', { url: '/', templateUrl: 'demo/views/demo.html', controller: 'DemoCtrl', params:{data:null} })
       .state('code', { url: '/', templateUrl: 'demo/views/code.html', controller: 'CodeCtrl', params:{data:null} });
 
+    $urlRouterProvider.otherwise('/');
   });
