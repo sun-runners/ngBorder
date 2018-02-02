@@ -1,0 +1,102 @@
+<div class="w-100 h-100">
+  <ng-gradient class="p-a w-100 h-100 t-0 l-0 z-1" ng-gradient-option="{
+    opacity: [1, 1],
+    direction: 'radial',
+    states: {
+      'default-state': {
+        gradients: [
+          ['#81D4FA', '#80DEEA'],
+          ['#80CBC4', '#C8E6C9'],
+          ['#C8E6C9', '#80CBC4'],
+          ['#80DEEA', '#81D4FA']
+        ]
+      }
+    }
+  }"></ng-gradient>
+  <div class="p-a w-100 h-100 t-0 l-0 z-2">
+    <div full-page class="section f-l z-2" options="{ scrollingSpeed: 500, controlArrows: false }">
+    	<div class="w-100 h-100 slide z-1">
+        <div class="w-60 cen t-c">
+          <div class="d-ib f-n" ng-init="corners = ['border-corners', 'border-corners-rev', 'border-separate', 'border-separate-rev'];">
+            <div class="w-175px-N500 h-175px-N500 w-90px-X500 h-90px-X500 b-we m-6px" ng-border="class" ng-border="class" ng-border-color="'#FF5722'" ng-repeat="class in corners">
+              <span class="w-90 f-12px ls-1px cen">.{{class}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 h-100 slide z-1">
+        <div class="w-60 cen t-c">
+          <div class="d-ib f-n" ng-init="boxes = ['border-box-top', 'border-box-right', 'border-box-bottom', 'border-box-left'];">
+            <div class="w-175px-N500 h-175px-N500 w-90px-X500 h-90px-X500 b-we m-6px" ng-border="class" ng-border="class" ng-border-color="'#FF9800'" ng-repeat="class in boxes">
+              <span class="w-90 f-12px ls-1px cen">.{{class}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 h-100 slide z-1">
+        <div class="w-60 cen t-c">
+          <div class="d-ib f-n" ng-init="boxes_rev = ['border-box-top-rev', 'border-box-right-rev', 'border-box-bottom-rev', 'border-box-left-rev']">
+            <div class="w-175px-N500 h-175px-N500 w-90px-X500 h-90px-X500 b-we m-6px" ng-border="class" ng-border="class" ng-border-color="'#FFC107'" ng-repeat="class in boxes_rev">
+              <span class="w-90 f-12px ls-1px cen">.{{class}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 h-100 slide z-1">
+        <div class="w-60 cen t-c">
+          <div class="d-ib f-n" ng-init="parallels_rev = ['border-parallel', 'border-parallel-rev', 'border-parallel-vert', 'border-parallel-vert-rev'];">
+            <div class="w-175px-N500 h-175px-N500 w-90px-X500 h-90px-X500 b-we m-6px" ng-border="class" ng-border="class" ng-border-color="'#FFEB3B'" ng-repeat="class in parallels_rev">
+              <span class="w-90 f-12px ls-1px cen">.{{class}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 h-100 slide z-1">
+        <div class="w-60 cen t-c">
+          <div class="d-ib f-n" ng-init="corners_undo = ['border-undo-corners', 'border-undo-corners-rev', 'border-undo-separate', 'border-undo-separate-rev'];">
+            <div class="w-175px-N500 h-175px-N500 w-90px-X500 h-90px-X500 b-we m-6px" ng-border="class" ng-border="class" ng-border-color="'#CDDC39'" ng-border-width="'8px'" ng-repeat="class in corners_undo">
+              <span class="w-90 f-12px ls-1px cen">.{{class}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 h-100 slide z-1">
+        <div class="w-60 cen t-c">
+          <div class="d-ib f-n" ng-init="boxes_undo = ['border-undo-box-top', 'border-undo-box-right', 'border-undo-box-bottom', 'border-undo-box-left'];">
+            <div class="w-175px-N500 h-175px-N500 w-90px-X500 h-90px-X500 b-we m-6px" ng-border="class" ng-border="class" ng-border-color="'#8BC34A'" ng-border-width="'8px'" ng-repeat="class in boxes_undo">
+              <span class="w-90 f-12px ls-1px cen">.{{class}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 h-100 slide z-1">
+        <div class="w-60 cen t-c">
+          <div class="d-ib f-n" ng-init="boxes_rev_undo = ['border-undo-box-top-rev', 'border-undo-box-right-rev', 'border-undo-box-bottom-rev', 'border-undo-box-left-rev'];">
+            <div class="w-175px-N500 h-175px-N500 w-90px-X500 h-90px-X500 b-we m-6px" ng-border="class" ng-border="class" ng-border-color="'#4CAF50'" ng-border-width="'8px'" ng-repeat="class in boxes_undo">
+              <span class="w-90 f-12px ls-1px cen">.{{class}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 h-100 slide z-1">
+        <div class="w-60 cen t-c">
+          <div class="d-ib f-n" ng-init="parallels_rev_undo = ['border-undo-parallel', 'border-undo-parallel-rev', 'border-undo-parallel-vert', 'border-undo-parallel-vert-rev'];">
+            <div class="w-175px-N500 h-175px-N500 w-90px-X500 h-90px-X500 b-we m-6px" ng-border="class" ng-border="class" ng-border-color="'#009688'" ng-border-width="'8px'" ng-repeat="class in boxes_undo">
+              <span class="w-90 f-12px ls-1px cen">.{{class}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="p-a w-20 h-60px cen-y c-we l-0 z-2" ng-click="movePrev();">
+        <div class="p-r w-100 h-100">
+          <i class="ion-arrow-left-b f-30px cen"></i>
+        </div>
+      </button>
+      <button class="p-a w-20 h-60px cen-y c-we r-0 z-2" ng-click="moveNext();">
+        <div class="p-r w-100 h-100">
+          <i class="ion-arrow-right-b f-30px cen"></i>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
