@@ -1,8 +1,3 @@
-/* border.css (https://github.com/gsco/border.css)
- * Version: 1.1
- * Author: Graeme Scott
-*/
-
 [class*="border-"] {
   display: inline-block;
   vertical-align: middle;
