@@ -23,7 +23,7 @@ bower install ngBorder --save
 
 Quick start
 -------
-Copy-paste the stylesheet <script> into your <body> and <link> into your <head>.
+Copy-paste the stylesheet ```<script>``` into your ```<body>``` and ```<link>``` into your ```<head>```.
 
 ```
 <script src=".bower_components/ng-border/ngBorder.js"></script>
