@@ -26,7 +26,9 @@ Quick start
 Copy-paste the stylesheet ```<script>``` into your ```<body>``` and ```<link>``` into your ```<head>```.
 
 <br/>
-ngBorder.js and ngBorder.css
+
+### ngBorder.js & ngBorder.css
+
 ```
 <script src=".bower_components/ng-border/ngBorder.js"></script>
 <link href=".bower_components/ng-border/ngBorder.css" rel="stylesheet">
