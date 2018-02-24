@@ -2,7 +2,10 @@
   "name": "ng-border",
   "version": "1.0.2",
   "homepage": "https://github.com/KimSunWook/ngBorder",
-  "main": ["ngBorder.js", "ngBorder.css", "ngBorder.min.js", "ngBorder.min.css"],
+  "main": [
+    "ngBorder.js",
+    "ngBorder.css"
+  ],
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
