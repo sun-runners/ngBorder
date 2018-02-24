@@ -45,8 +45,5 @@
     "animejs": "^2.2.0",
     "ng-gradient": "ngGradient#^1.0.1",
     "reset.css": "^1.0.3"
-  },
-  "resolutions": {
-    "angular": "~1.5.8"
   }
 }
