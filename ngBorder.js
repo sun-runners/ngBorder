@@ -7,7 +7,7 @@
     }
   };
   angular.module('ngBorder', ['ng'])
-    .directive('ngBorder', function($interval) {
+    .directive('ngBorder', ['$interval', function($interval) {
       return {
         link: function(scope, element, attrs) {
 
@@ -106,4 +106,4 @@
         restrict: 'A'
       };
     });
-})(angular);
+}])(angular);

@@ -35,18 +35,8 @@ Copy-paste the stylesheet ```<script>``` into your ```<body>``` and ```<link>```
 ```
 or
 ```
-<script src=".bower_components/ng-border/ngBorder.min.js"></script>
-<link href=".bower_components/ng-border/ngBorder.min.css" rel="stylesheet">
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.0.2/ngBorder.js"></script>
-<link href="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.0.2/ngBorder.css" rel="stylesheet">
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.0.2/ngBorder.min.js"></script>
-<link href="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.0.2/ngBorder.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.1.2/ngBorder.js"></script>
+<link href="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.1.2/ngBorder.css" rel="stylesheet">
 ```
 
 <br/>
