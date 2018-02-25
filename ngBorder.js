@@ -105,5 +105,5 @@
         },
         restrict: 'A'
       };
-    });
-}])(angular);
+    }]);
+  })(angular);

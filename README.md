@@ -35,8 +35,8 @@ Copy-paste the stylesheet ```<script>``` into your ```<body>``` and ```<link>```
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.1.2/ngBorder.js"></script>
-<link href="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.1.2/ngBorder.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.1.3/ngBorder.js"></script>
+<link href="https://cdn.rawgit.com/KimSunWook/ngBorder/v1.1.3/ngBorder.css" rel="stylesheet">
 ```
 
 <br/>
